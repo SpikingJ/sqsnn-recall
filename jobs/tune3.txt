@@ -1,0 +1,6 @@
+--model sqs_event --delays 0,10,20,40,80,160 --no_test --out tune3 --lr 5e-4 --surrogate ste --go_init 1 --gain0 0.1 --epochs 30 --write_max 0.75 --read_min 0.75 --tag f1
+--model sqs_event --delays 0,10,20,40,80,160 --no_test --out tune3 --lr 5e-4 --surrogate ste --go_init 1 --gain0 0.1 --epochs 30 --write_max 1.0 --read_min 0.75 --tag f2
+--model sqs_event --delays 0,10,20,40,80,160 --no_test --out tune3 --lr 5e-4 --surrogate ste --go_init 1 --gain0 0.1 --epochs 30 --write_max 0.5 --read_min 0.5 --tag f3
+--model sqs_event --delays 0,10,20,40,80,160 --no_test --out tune3 --lr 5e-4 --surrogate ste --go_init 1 --gain0 0.1 --epochs 30 --write_max 0.75 --read_min 0.5 --tag f4
+--model sqs_event --delays 0,10,20,40,80,160 --no_test --out tune3 --lr 5e-4 --surrogate ste --go_init 1 --gain0 0.1 --epochs 40 --write_max 0.5 --read_min 0.75 --tag f5
+--model sqs_event --delays 0,10,20,40,80,160 --no_test --out tune3 --lr 5e-4 --surrogate ste --go_init 1 --gain0 0.1 --epochs 30 --write_max 0.5 --read_min 0.75 --surrogate sigmoid --lr 1e-3 --tag f6

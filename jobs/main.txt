@@ -1,0 +1,30 @@
+--model sqs_event --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 0 --lr 5e-4 --surrogate ste --theta_init memory --write_max 0.5 --read_min 0.5 --go_init 1 --gain0 0.1
+--model sqs_read --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 0 --lr 5e-4 --surrogate sigmoid --theta_init uniform --go_init 1 --gain0 0.1
+--model sqs_chen --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 0 --lr 5e-4 --surrogate sigmoid --theta_init small --go_init 1 --gain0 0.1
+--model lif --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 0 --lr 1e-3 --loss sum_spk --go_init 0
+--model lif_lb --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 0 --lr 1e-3 --loss sum_spk --go_init 0
+--model qlif --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 0 --lr 5e-4 --go_init 1 --gain0 0.1
+--model sqs_event --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 1 --lr 5e-4 --surrogate ste --theta_init memory --write_max 0.5 --read_min 0.5 --go_init 1 --gain0 0.1
+--model sqs_read --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 1 --lr 5e-4 --surrogate sigmoid --theta_init uniform --go_init 1 --gain0 0.1
+--model sqs_chen --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 1 --lr 5e-4 --surrogate sigmoid --theta_init small --go_init 1 --gain0 0.1
+--model lif --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 1 --lr 1e-3 --loss sum_spk --go_init 0
+--model lif_lb --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 1 --lr 1e-3 --loss sum_spk --go_init 0
+--model qlif --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 1 --lr 5e-4 --go_init 1 --gain0 0.1
+--model sqs_event --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 2 --lr 5e-4 --surrogate ste --theta_init memory --write_max 0.5 --read_min 0.5 --go_init 1 --gain0 0.1
+--model sqs_read --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 2 --lr 5e-4 --surrogate sigmoid --theta_init uniform --go_init 1 --gain0 0.1
+--model sqs_chen --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 2 --lr 5e-4 --surrogate sigmoid --theta_init small --go_init 1 --gain0 0.1
+--model lif --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 2 --lr 1e-3 --loss sum_spk --go_init 0
+--model lif_lb --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 2 --lr 1e-3 --loss sum_spk --go_init 0
+--model qlif --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 2 --lr 5e-4 --go_init 1 --gain0 0.1
+--model sqs_event --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 3 --lr 5e-4 --surrogate ste --theta_init memory --write_max 0.5 --read_min 0.5 --go_init 1 --gain0 0.1
+--model sqs_read --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 3 --lr 5e-4 --surrogate sigmoid --theta_init uniform --go_init 1 --gain0 0.1
+--model sqs_chen --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 3 --lr 5e-4 --surrogate sigmoid --theta_init small --go_init 1 --gain0 0.1
+--model lif --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 3 --lr 1e-3 --loss sum_spk --go_init 0
+--model lif_lb --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 3 --lr 1e-3 --loss sum_spk --go_init 0
+--model qlif --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 3 --lr 5e-4 --go_init 1 --gain0 0.1
+--model sqs_event --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 4 --lr 5e-4 --surrogate ste --theta_init memory --write_max 0.5 --read_min 0.5 --go_init 1 --gain0 0.1
+--model sqs_read --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 4 --lr 5e-4 --surrogate sigmoid --theta_init uniform --go_init 1 --gain0 0.1
+--model sqs_chen --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 4 --lr 5e-4 --surrogate sigmoid --theta_init small --go_init 1 --gain0 0.1
+--model lif --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 4 --lr 1e-3 --loss sum_spk --go_init 0
+--model lif_lb --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 4 --lr 1e-3 --loss sum_spk --go_init 0
+--model qlif --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 4 --lr 5e-4 --go_init 1 --gain0 0.1

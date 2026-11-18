@@ -1,0 +1,5 @@
+--model lif --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 0 --lr 1e-3 --loss sum_spk --go_init 0 --beta 1.0 --tag main_if
+--model lif --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 1 --lr 1e-3 --loss sum_spk --go_init 0 --beta 1.0 --tag main_if
+--model lif --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 2 --lr 1e-3 --loss sum_spk --go_init 0 --beta 1.0 --tag main_if
+--model lif --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 3 --lr 1e-3 --loss sum_spk --go_init 0 --beta 1.0 --tag main_if
+--model lif --delays 0,10,20,40,80,160 --extra_test_delays 320,640 --test_reps 3 --epochs 50 --batch 64 --out results --tag main --seed 4 --lr 1e-3 --loss sum_spk --go_init 0 --beta 1.0 --tag main_if

@@ -1,0 +1,3 @@
+--model sqs_read --delays 0 --epochs 40 --no_test --out tune3 --lr 5e-4 --theta_init uniform --surrogate sigmoid --go_init 1 --gain0 0.1 --tag rr1
+--model sqs_read --delays 0 --epochs 40 --no_test --out tune3 --lr 5e-4 --theta_init memory --surrogate ste --go_init 1 --gain0 0.1 --tag rr2
+--model sqs_read --delays 0 --epochs 40 --no_test --out tune3 --lr 5e-4 --theta_init uniform --surrogate sigmoid --go_init 0 --gain0 0 --tag rr3

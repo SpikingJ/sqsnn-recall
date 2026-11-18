@@ -1,0 +1,7 @@
+--model lif --delays 80 --epochs 15 --lr 2e-3 --batch 64 --loss sum_spk --go_init 0 --no_test --tag fixlong --out results
+--model lif --delays 160 --epochs 15 --lr 2e-3 --batch 64 --loss sum_spk --go_init 0 --no_test --tag fixlong --out results
+--model lif --delays 320 --epochs 15 --lr 2e-3 --batch 64 --loss sum_spk --go_init 0 --no_test --tag fixlong --out results
+--model lif --delays 0,10,20,40,80,160 --epochs 20 --no_test --out results --lr 2e-3 --batch 64 --loss sum_spk --go_init 0 --tag var1
+--model lif --delays 0,10,20,40,80,160 --epochs 20 --no_test --out results --lr 1e-3 --batch 64 --loss sum_spk --go_init 0 --tag var1b
+--model sqs_event --delays 0,10,20,40,80,160 --epochs 20 --no_test --out results --lr 5e-4 --batch 64 --surrogate sigmoid --theta_init memory --go_init 1 --gain0 0.1 --tag var1
+--model sqs_event --delays 0,10,20,40,80,160 --epochs 20 --no_test --out results --lr 5e-4 --batch 64 --surrogate ste --theta_init memory --go_init 1 --gain0 0.1 --tag var1ste

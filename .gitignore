@@ -1,0 +1,11 @@
+# Only the code, the job lists, the docs and the README figure are tracked. Data, results, figures, logs, notes,
+# drafts and the archive of the old server stay local.
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/*.py
+!/jobs/
+!/assets/
+/jobs/tune1.txt
+__pycache__/

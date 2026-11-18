@@ -1,0 +1,4 @@
+--model sqs_event --delays 0,10,20,40,80,160 --epochs 50 --no_test --out tune_nm --go_init 1 --gain0 0.1 --lr 5e-4 --surrogate ste --seed 0 --n_mem 4 --write_max 0.5 --read_min 0.25 --tag nmK
+--model sqs_event --delays 0,10,20,40,80,160 --epochs 50 --no_test --out tune_nm --go_init 1 --gain0 0.1 --lr 5e-4 --surrogate ste --seed 0 --n_mem 4 --write_max 0.5 --read_min 0.5 --tag nmL
+--model sqs_event --delays 0,10,20,40,80,160 --epochs 50 --no_test --out tune_nm --go_init 1 --gain0 0.1 --lr 5e-4 --surrogate ste --seed 1 --n_mem 4 --write_max 0.5 --read_min 0.25 --tag nmK
+--model sqs_event --delays 0,10,20,40,80,160 --epochs 50 --no_test --out tune_nm --go_init 1 --gain0 0.1 --lr 5e-4 --surrogate ste --seed 1 --n_mem 4 --write_max 0.5 --read_min 0.5 --tag nmL

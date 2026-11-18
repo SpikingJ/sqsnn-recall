@@ -1,0 +1,21 @@
+--model sqs_event --delays 0,10,20,40,80,160 --epochs 25 --no_test --out tune2 --lr 5e-4 --surrogate ste --write_max 0.25 --go_init 1 --gain0 0.1 --tag e1
+--model sqs_event --delays 0,10,20,40,80,160 --epochs 25 --no_test --out tune2 --lr 5e-4 --surrogate ste --write_max 0.5 --go_init 1 --gain0 0.1 --tag e2
+--model sqs_event --delays 0,10,20,40,80,160 --epochs 25 --no_test --out tune2 --lr 5e-4 --surrogate ste --write_max 0.125 --go_init 1 --gain0 0.1 --tag e3
+--model sqs_event --delays 0,10,20,40,80,160 --epochs 25 --no_test --out tune2 --lr 5e-4 --surrogate ste --write_max 0.25 --w_scale 2 --go_init 1 --gain0 0.1 --tag e4
+--model sqs_event --delays 0,10,20,40,80,160 --epochs 25 --no_test --out tune2 --lr 5e-4 --surrogate ste --write_max 0.25 --go_init 1 --gain0 0.3 --tag e5
+--model sqs_event --delays 0,10,20,40,80,160 --epochs 25 --no_test --out tune2 --lr 1e-3 --batch 128 --surrogate ste --write_max 0.25 --go_init 1 --gain0 0.1 --tag e6
+--model sqs_event --delays 0,10,20,40,80,160 --epochs 25 --no_test --out tune2 --lr 3e-4 --surrogate ste --write_max 0.25 --go_init 1 --gain0 0.1 --tag e7
+--model sqs_event --delays 0,10,20,40,80,160 --epochs 25 --no_test --out tune2 --lr 5e-4 --surrogate sigmoid --write_max 0.5 --go_init 1 --gain0 0.1 --tag e8
+--model sqs_read --delays 0,10,20,40,80,160 --epochs 25 --no_test --out tune2 --lr 5e-4 --surrogate ste --theta_init memory --go_init 1 --gain0 0.1 --tag r1
+--model sqs_read --delays 0,10,20,40,80,160 --epochs 25 --no_test --out tune2 --lr 5e-4 --surrogate ste --theta_init uniform --go_init 1 --gain0 0.1 --tag r2
+--model sqs_read --delays 0,10,20,40,80,160 --epochs 25 --no_test --out tune2 --lr 1e-3 --surrogate sigmoid --theta_init memory --go_init 1 --gain0 0.1 --tag r3
+--model sqs_chen --delays 0,10,20,40,80,160 --epochs 25 --no_test --out tune2 --lr 5e-4 --surrogate sigmoid --theta_init small --go_init 1 --gain0 0.1 --tag c1
+--model sqs_chen --delays 0,10,20,40,80,160 --epochs 25 --no_test --out tune2 --lr 5e-4 --surrogate ste --theta_init uniform --go_init 1 --gain0 0.1 --tag c2
+--model lif --delays 0,10,20,40,80,160 --epochs 25 --no_test --out tune2 --lr 1e-3 --loss sum_spk --go_init 0 --tag l1
+--model lif --delays 0,10,20,40,80,160 --epochs 25 --no_test --out tune2 --lr 5e-4 --loss sum_spk --go_init 0 --tag l2
+--model lif --delays 0,10,20,40,80,160 --epochs 25 --no_test --out tune2 --lr 1e-3 --loss sum_spk --go_init 1 --tag l3
+--model lif_lb --delays 0,10,20,40,80,160 --epochs 25 --no_test --out tune2 --lr 1e-3 --loss sum_spk --go_init 0 --tag lb1
+--model lif_lb --delays 0,10,20,40,80,160 --epochs 25 --no_test --out tune2 --lr 2e-3 --loss sum_spk --go_init 0 --tag lb2
+--model qlif --delays 0,10,20,40,80,160 --epochs 25 --no_test --out tune2 --lr 5e-4 --go_init 1 --gain0 0.1 --tag q1
+--model qlif --delays 0,10,20,40,80,160 --epochs 25 --no_test --out tune2 --lr 5e-4 --go_init 0 --gain0 0.1 --tag q2
+--model qlif --delays 0,10,20,40,80,160 --epochs 25 --no_test --out tune2 --lr 1e-3 --go_init 1 --gain0 0 --tag q3

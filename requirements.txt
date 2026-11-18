@@ -1,0 +1,7 @@
+# Versions used for the experiments (Python 3.10.19, NVIDIA A100, driver 535, CUDA 12.1).
+# Install torch first with the CUDA build that matches the driver, e.g.
+#   pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1
+numpy==1.26.4
+matplotlib==3.10.8
+h5py==3.14.0
